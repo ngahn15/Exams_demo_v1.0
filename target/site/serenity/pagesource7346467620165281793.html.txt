@@ -1,0 +1,153 @@
+<html style="height: 100%"><head>
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                    <title>VNPT-ERP</title>
+                    <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon">
+                    <link rel="stylesheet" href="/web/static/src/css/full.css">
+                    
+                    <link href="/web/static/src/css/base.css" rel="stylesheet">
+                    <link href="/web/static/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+                
+                </head>
+                <body class="oe_single_form">
+                    
+                
+                
+
+<div class="oe_single_form_container modal-content" style="box-shadow:none;left:10%;margin-left:0px;max-width:400px; height: 450px;margin-top:0px;top:10%;">
+<table style="margin-left:5px">
+                        <tbody>
+                            <tr>
+                                <td style="font-weight:bold;font-size:14px">Thông tin hỗ trợ nghiệp vụ từ Ban Nhân sự
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                    <i>- Hỗ trợ về nghiệp vụ Quản lý nhân sự:</i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Trần Thị Luyến - 091.252.6686 - <a href="mailto:luyentt@vnpt.vn">luyentt@vnpt.vn</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Phạm Song Hòa - 091.129.3930 - <a href="mailto:hoaps@vnpt.vn">hoaps@vnpt.vn</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                    <i>- Hỗ trợ về nghiệp vụ Lương 3Ps:</i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Trần Thu Phương - 091.142.1766 - <a href="mailto:phuong.tranthu@vnpt.vn">phuong.tranthu@vnpt.vn</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Nguyễn Thị Việt Hồng - 091.678.6569 - <a href="mailto:nvhong@vnpt.vn">nvhong@vnpt.vn</a>
+                                    <br>
+                                    <br>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="font-weight:bold;font-size:14px">Thông tin hỗ trợ phần mềm từ VNPT Software
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                                                           <i>- Hỗ trợ Phần mềm ĐT</i>
+                                     : 04.3793.8922 hoặc 04.3793.8924
+                                    <br>
+   <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                    <i>- Hỗ trợ về BSC/KPI và Khảo sát:</i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Bùi Thị Hồng Hạnh - 094.254.2882 - <a href="mailto:buithihonghanh@vnpt.vn">buithihonghanh@vnpt.vn</a><br>   <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                    <i>- Hỗ trợ về KRI đơn vị và KRI cá nhân:</i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Trần Liên Trà - ĐT: 0911.676.268 - <a href="mailto:lientra@vnpt.vn">lientra@vnpt.vn</a><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:bold;font-size:12px">
+                                    <i>- Hỗ trợ về HRM:</i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Lại Như Phượng - 091.112.9130 - <a href="mailto:phuongln@vnpt.vn">phuongln@vnpt.vn</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px">&nbsp;&nbsp;&nbsp;+ Phạm Thị Thúy Hằng - ĐT: 094.508.7285 - <a href="mailto:hangpham@vnpt.vn">hangpham@vnpt.vn</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <br>
+                                    <i>Xem thêm Video, tài liệu trên menu Hỗ trợ của hệ thống</i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+</div>
+
+                <div class="oe_single_form_container modal-content" style="float:right;box-shadow:none;max-width:380px;text-align:rigth;margin-left:0px;z-index:999;margin-top:0px;top:10%;">
+                    <div class="oe_single_form_logo">
+                        <img src="/web/binary/company_logo">
+                    </div>
+                    <hr>
+                    
+                <form class="oe_login_form" role="form" action="/web/login" method="post" onsubmit="this.action = this.action + location.hash">
+
+                    
+            <script type="text/javascript">
+                function dbchanged(db) {
+                    document.location = "/web/login?db=" + db;
+                }
+            </script>
+            
+        
+
+                    <div class="form-group field-login">
+                        <label for="login" class="control-label">Email</label>
+                        <input type="text" name="login" id="login" class="form-control" required="required" autofocus="autofocus" style="border: 1px solid red;">
+                    </div>
+
+                    <div class="form-group field-password">
+                        <label for="password" class="control-label">Mật khẩu</label>
+                        <input type="password" name="password" id="password" class="form-control" required="required" style="border: 1px solid red;">
+                    </div>
+
+                    
+                    
+
+                    <input type="hidden" name="redirect" value="http://exams-hrm.v8.vn/web?">
+                    <div class="clearfix oe_login_buttons">
+                        
+                <a href="/web/reset_password?redirect=http%3A%2F%2Fexams-hrm.v8.vn%2Fweb%3F" class="btn btn-link pull-right">Đặt lại mật khẩu</a>
+            <button type="submit" class="btn btn-primary" style="border: 1px solid red;">Đăng nhập</button>
+                    </div>
+
+                <input type="hidden" name="csrf_token">
+            </form>
+            
+                  
+                </div>
+            
+                
+            
+        
+        
+        </body></html>

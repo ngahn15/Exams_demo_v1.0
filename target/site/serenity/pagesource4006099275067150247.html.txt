@@ -1,0 +1,3566 @@
+<html style="height: 100%"><head>
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                    <title>Odoo</title>
+                    <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon">
+                    <link rel="stylesheet" href="/web/static/src/css/full.css">
+                    
+                    
+            <link href="/web/css/web.assets_common/fd2340c" rel="stylesheet">
+            <script type="text/javascript" src="/web/js/web.assets_common/fd2340c"></script><style type="text/css"></style>
+                    
+            <link href="/web/css/web.assets_backend/8bfd169" rel="stylesheet">
+            <script type="text/javascript" src="/web/js/web.assets_backend/8bfd169"></script><style>.cke{visibility:hidden;}</style>
+                    <!--[if lte IE 9]> <link rel="stylesheet" href="/web/static/src/css/ie.css"/> <![endif]-->
+                    <script type="text/javascript">
+                        $(function() {
+                            var s = new openerp.init();
+                            
+                            
+                                var wc = new s.web.WebClient();
+                                wc.setElement($(document.body));
+                                wc.start();
+                            
+                        });
+                    </script>
+                
+                <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+                <body>
+                    
+                
+
+                <nav id="oe_main_menu_navbar" class="navbar navbar-inverse" role="navigation" groups="base.group_user,base.group_portal,share.group_shared">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>    
+                    </div>
+                    <div class="navbar-collapse collapse" id="oe_main_menu_placeholder">
+                        
+            <ul class="nav navbar-nav navbar-left oe_application_menu_placeholder">
+                <li>
+                    
+            
+            <a href="/web#menu_id=95&amp;action=87" class="oe_menu_leaf" data-menu="95" data-action-model="ir.actions.act_window" data-action-id="87">
+                <span class="oe_menu_text">
+                    Bảng điều khiển cá nhân
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=102&amp;action=" class="oe_menu_toggler" data-menu="102">
+                <span class="oe_menu_text">
+                    Tin nhắn
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1179&amp;action=" class="oe_menu_toggler" data-menu="1179">
+                <span class="oe_menu_text">
+                    Đánh giá năng lực
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1231&amp;action=" class="oe_menu_toggler" data-menu="1231">
+                <span class="oe_menu_text">
+                    KRI Khối tham mưu
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1617&amp;action=2109" class="oe_menu_leaf" data-menu="1617" data-action-model="ir.actions.act_url" data-action-id="2109">
+                <span class="oe_menu_text">
+                    Tham gia KS - ĐGNL
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1587&amp;action=" class="oe_menu_toggler" data-menu="1587">
+                <span class="oe_menu_text">
+                    Quản trị khảo sát
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=567&amp;action=" class="oe_menu_toggler" data-menu="567">
+                <span class="oe_menu_text">
+                    Khảo sát cũ
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=115&amp;action=" class="oe_menu_toggler" data-menu="115">
+                <span class="oe_menu_text">
+                    Quản trị nhân lực
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1505&amp;action=" class="oe_menu_toggler" data-menu="1505">
+                <span class="oe_menu_text">
+                    Cảnh báo
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1&amp;action=" class="oe_menu_toggler" data-menu="1">
+                <span class="oe_menu_text">
+                    Báo cáo
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=388&amp;action=" class="oe_menu_toggler" data-menu="388">
+                <span class="oe_menu_text">
+                    Hỗ trợ
+                </span>
+            </a>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=597&amp;action=760" class="oe_menu_leaf" data-menu="597" data-action-model="ir.actions.act_url" data-action-id="760">
+                <span class="oe_menu_text">
+                    Diễn đàn
+                </span>
+            </a>
+        
+                </li>
+                <li id="menu_more_container" class="dropdown" style="display: none;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thêm <b class="caret"></b></a>
+                    <ul id="menu_more" class="dropdown-menu"></ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right oe_user_menu_placeholder" style="display: none;"></ul>
+            <ul class="nav navbar-nav navbar-right oe_systray" style="display: none;"></ul>
+        
+                    </div>
+                </nav>
+                <div class="openerp openerp_webclient_container">
+                    <table class="oe_webclient">
+                        <tbody><tr>
+                            <td class="oe_leftbar" valign="top">
+                                <div groups="base.group_user,base.group_portal,share.group_shared">
+                                    
+            <a class="oe_logo" href="/web">
+                <span class="oe_logo_edit">Sửa thông tin Công ty</span>
+                <img src="/web/binary/company_logo">
+            </a>
+            <div class="oe_toggle_secondary_menu">
+                    <span class="oe_menu_fold" title="Fold menu">«</span>
+                    <span class="oe_menu_unfold" title="Unfold menu">»</span>
+                </div>
+            <div>
+                <div>
+                    <div class="oe_secondary_menus_container">
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="95">
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="102">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Chiến Dịch Mail
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1314&amp;action=1595" class="oe_menu_leaf" data-menu="1314" data-action-model="ir.actions.act_window" data-action-id="1595">
+                <span class="oe_menu_text">
+                    Chiến dịch
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1312&amp;action=1592" class="oe_menu_leaf" data-menu="1312" data-action-model="ir.actions.act_window" data-action-id="1592">
+                <span class="oe_menu_text">
+                    Quản lý chiến dịch
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1315&amp;action=1596" class="oe_menu_leaf" data-menu="1315" data-action-model="ir.actions.act_window" data-action-id="1596">
+                <span class="oe_menu_text">
+                    Các Mẫu Mail
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1308&amp;action=" class="oe_menu_toggler" data-menu="1308">
+                <span class="oe_menu_text">
+                    Cấu hình
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1313&amp;action=1594" class="oe_menu_leaf" data-menu="1313" data-action-model="ir.actions.act_window" data-action-id="1594">
+                <span class="oe_menu_text">
+                    Trạng thái chiến dịch
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Danh Sách Nhóm Mail
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1311&amp;action=1591" class="oe_menu_leaf" data-menu="1311" data-action-model="ir.actions.act_window" data-action-id="1591">
+                <span class="oe_menu_text">
+                    Danh Sách Nhóm Mail
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1310&amp;action=1589" class="oe_menu_leaf" data-menu="1310" data-action-model="ir.actions.act_window" data-action-id="1589">
+                <span class="oe_menu_text">
+                    Liên hệ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tin nhắn
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=105&amp;action=98" class="oe_menu_leaf" data-menu="105" data-action-model="ir.actions.client" data-action-id="98">
+                <span class="oe_menu_text">
+                    Hộp thư đến
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=106&amp;action=99" class="oe_menu_leaf" data-menu="106" data-action-model="ir.actions.client" data-action-id="99">
+                <span class="oe_menu_text">
+                    Đến: tôi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=107&amp;action=100" class="oe_menu_leaf" data-menu="107" data-action-model="ir.actions.client" data-action-id="100">
+                <span class="oe_menu_text">
+                    Việc cần làm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=108&amp;action=101" class="oe_menu_leaf" data-menu="108" data-action-model="ir.actions.client" data-action-id="101">
+                <span class="oe_menu_text">
+                    Lưu trữ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tổ chức
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=135&amp;action=134" class="oe_menu_leaf" data-menu="135" data-action-model="ir.actions.act_window" data-action-id="134">
+                <span class="oe_menu_text">
+                    Lịch
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Nhóm của tôi
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1352&amp;action=1631" class="oe_menu_leaf" data-menu="1352" data-action-model="ir.actions.client" data-action-id="1631">
+                <span class="oe_menu_text">
+                    Birthday Wishes
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=110&amp;action=104" class="oe_menu_leaf" data-menu="110" data-action-model="ir.actions.act_window" data-action-id="104">
+                <span class="oe_menu_text">
+                    Tham gia nhóm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1179">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Khung năng lực
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1181&amp;action=1457" class="oe_menu_leaf" data-menu="1181" data-action-model="ir.actions.act_window" data-action-id="1457">
+                <span class="oe_menu_text">
+                    Đợt thi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1182&amp;action=1456" class="oe_menu_leaf" data-menu="1182" data-action-model="ir.actions.act_window" data-action-id="1456">
+                <span class="oe_menu_text">
+                    Cấu trúc đề thi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1183&amp;action=1462" class="oe_menu_leaf" data-menu="1183" data-action-model="ir.actions.act_window" data-action-id="1462">
+                <span class="oe_menu_text">
+                    Quản lý đề thi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1585&amp;action=2037" class="oe_menu_leaf" data-menu="1585" data-action-model="ir.actions.act_window" data-action-id="2037">
+                <span class="oe_menu_text">
+                    Quản lý đề thi lỗi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1193&amp;action=1450" class="oe_menu_leaf" data-menu="1193" data-action-model="ir.actions.act_window" data-action-id="1450">
+                <span class="oe_menu_text">
+                    Quy đổi điểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1538&amp;action=2032" class="oe_menu_leaf" data-menu="1538" data-action-model="ir.actions.act_window" data-action-id="2032">
+                <span class="oe_menu_text">
+                    Thiết lập chấm thi - đánh giá
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Bộ câu hỏi
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1556&amp;action=2036" class="oe_menu_leaf" data-menu="1556" data-action-model="ir.actions.act_window" data-action-id="2036">
+                <span class="oe_menu_text">
+                    Bộ câu hỏi tham khảo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1184&amp;action=1461" class="oe_menu_leaf" data-menu="1184" data-action-model="ir.actions.act_window" data-action-id="1461">
+                <span class="oe_menu_text">
+                    Quản lý bộ câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1185&amp;action=1464" class="oe_menu_leaf" data-menu="1185" data-action-model="ir.actions.act_window" data-action-id="1464">
+                <span class="oe_menu_text">
+                    Import câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Chấm thi
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1579&amp;action=2050" class="oe_menu_leaf" data-menu="1579" data-action-model="ir.actions.act_window" data-action-id="2050">
+                <span class="oe_menu_text">
+                    Phiếu đánh giá hàng năm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1188&amp;action=1465" class="oe_menu_leaf" data-menu="1188" data-action-model="ir.actions.act_window" data-action-id="1465">
+                <span class="oe_menu_text">
+                    Quản lý đánh giá theo từ điển
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1534&amp;action=2039" class="oe_menu_leaf" data-menu="1534" data-action-model="ir.actions.act_window" data-action-id="2039">
+                <span class="oe_menu_text">
+                    Chấm câu hỏi tự luận
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Cấu hình
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1194&amp;action=1463" class="oe_menu_leaf" data-menu="1194" data-action-model="ir.actions.act_window" data-action-id="1463">
+                <span class="oe_menu_text">
+                    Quản lý tag
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1198&amp;action=1455" class="oe_menu_leaf" data-menu="1198" data-action-model="ir.actions.act_window" data-action-id="1455">
+                <span class="oe_menu_text">
+                    Cấu hình chung
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1558&amp;action=2045" class="oe_menu_leaf" data-menu="1558" data-action-model="ir.actions.act_window" data-action-id="2045">
+                <span class="oe_menu_text">
+                    Nguyên tắc qui đổi điểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tài liệu đào tạo
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1537&amp;action=2030" class="oe_menu_leaf" data-menu="1537" data-action-model="ir.actions.act_window" data-action-id="2030">
+                <span class="oe_menu_text">
+                    Giới thiệu trang chủ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1196&amp;action=1453" class="oe_menu_leaf" data-menu="1196" data-action-model="ir.actions.act_window" data-action-id="1453">
+                <span class="oe_menu_text">
+                    Hướng dẫn sử dụng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1200&amp;action=1451" class="oe_menu_leaf" data-menu="1200" data-action-model="ir.actions.act_window" data-action-id="1451">
+                <span class="oe_menu_text">
+                    Quản lý danh mục tài liệu đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1571&amp;action=1452" class="oe_menu_leaf" data-menu="1571" data-action-model="ir.actions.act_window" data-action-id="1452">
+                <span class="oe_menu_text">
+                    Quản lý tài liệu đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tham khảo khung năng lực P2
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1553&amp;action=2023" class="oe_menu_leaf" data-menu="1553" data-action-model="ir.actions.act_window" data-action-id="2023">
+                <span class="oe_menu_text">
+                    Năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1554&amp;action=2046" class="oe_menu_leaf" data-menu="1554" data-action-model="ir.actions.act_window" data-action-id="2046">
+                <span class="oe_menu_text">
+                    Biểu hiện năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1555&amp;action=2047" class="oe_menu_leaf" data-menu="1555" data-action-model="ir.actions.act_window" data-action-id="2047">
+                <span class="oe_menu_text">
+                    Tiêu chuẩn năng lực nhân viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Từ điển năng lực p2
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1546&amp;action=2021" class="oe_menu_leaf" data-menu="1546" data-action-model="ir.actions.act_window" data-action-id="2021">
+                <span class="oe_menu_text">
+                    Nhóm năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1547&amp;action=2022" class="oe_menu_leaf" data-menu="1547" data-action-model="ir.actions.act_window" data-action-id="2022">
+                <span class="oe_menu_text">
+                    Năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1548&amp;action=2024" class="oe_menu_leaf" data-menu="1548" data-action-model="ir.actions.act_window" data-action-id="2024">
+                <span class="oe_menu_text">
+                    Biểu hiện năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1549&amp;action=2026" class="oe_menu_leaf" data-menu="1549" data-action-model="ir.actions.act_window" data-action-id="2026">
+                <span class="oe_menu_text">
+                    Tiêu chuẩn năng lực nhân viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1550&amp;action=2028" class="oe_menu_leaf" data-menu="1550" data-action-model="ir.actions.act_window" data-action-id="2028">
+                <span class="oe_menu_text">
+                    Import từ điển năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1551&amp;action=2029" class="oe_menu_leaf" data-menu="1551" data-action-model="ir.actions.act_window" data-action-id="2029">
+                <span class="oe_menu_text">
+                    Import tiêu chuẩn năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Báo cáo &amp; thống kê
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1187&amp;action=1460" class="oe_menu_leaf" data-menu="1187" data-action-model="ir.actions.act_window" data-action-id="1460">
+                <span class="oe_menu_text">
+                    Danh sách nhân viên tham gia đánh giá
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1203&amp;action=1473" class="oe_menu_leaf" data-menu="1203" data-action-model="ir.actions.act_window" data-action-id="1473">
+                <span class="oe_menu_text">
+                    Tổng hợp kết quả thi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1580&amp;action=2052" class="oe_menu_leaf" data-menu="1580" data-action-model="ir.actions.act_window" data-action-id="2052">
+                <span class="oe_menu_text">
+                    Báo cáo hàng năm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1541&amp;action=2040" class="oe_menu_leaf" data-menu="1541" data-action-model="ir.actions.act_window" data-action-id="2040">
+                <span class="oe_menu_text">
+                    Thống kê theo năng lực
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1542&amp;action=2041" class="oe_menu_leaf" data-menu="1542" data-action-model="ir.actions.act_window" data-action-id="2041">
+                <span class="oe_menu_text">
+                    Đơn vị và chức danh
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1642&amp;action=2173" class="oe_menu_leaf" data-menu="1642" data-action-model="ir.actions.act_window" data-action-id="2173">
+                <span class="oe_menu_text">
+                    Báo cáo năng lực nhân viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1643&amp;action=2175" class="oe_menu_leaf" data-menu="1643" data-action-model="ir.actions.act_window" data-action-id="2175">
+                <span class="oe_menu_text">
+                    Thống kê danh sách chưa hoàn thành
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1659&amp;action=2191" class="oe_menu_leaf" data-menu="1659" data-action-model="ir.actions.act_window" data-action-id="2191">
+                <span class="oe_menu_text">
+                    Báo cáo bài làm của nhân viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Thông tin gửi email
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1540&amp;action=2035" class="oe_menu_leaf" data-menu="1540" data-action-model="ir.actions.act_window" data-action-id="2035">
+                <span class="oe_menu_text">
+                    Danh sách gửi email
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Phân ca thi
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1581&amp;action=2055" class="oe_menu_leaf" data-menu="1581" data-action-model="ir.actions.act_window" data-action-id="2055">
+                <span class="oe_menu_text">
+                    Danh sách phân ca thi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1578&amp;action=2049" class="oe_menu_leaf" data-menu="1578" data-action-model="ir.actions.act_window" data-action-id="2049">
+                <span class="oe_menu_text">
+                    Import phân ca thi cá nhân
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1231">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Đăng ký KRI
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1233&amp;action=1509" class="oe_menu_leaf" data-menu="1233" data-action-model="ir.actions.act_window" data-action-id="1509">
+                <span class="oe_menu_text">
+                    Đăng ký
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1235&amp;action=1515" class="oe_menu_leaf" data-menu="1235" data-action-model="ir.actions.act_window" data-action-id="1515">
+                <span class="oe_menu_text">
+                    Kết quả đánh giá
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Đánh giá KRI
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1237&amp;action=1513" class="oe_menu_leaf" data-menu="1237" data-action-model="ir.actions.act_window" data-action-id="1513">
+                <span class="oe_menu_text">
+                    Báo cáo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Thư viện
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1242&amp;action=1506" class="oe_menu_leaf" data-menu="1242" data-action-model="ir.actions.act_window" data-action-id="1506">
+                <span class="oe_menu_text">
+                    Thư viện chỉ tiêu
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1243&amp;action=1507" class="oe_menu_leaf" data-menu="1243" data-action-model="ir.actions.act_window" data-action-id="1507">
+                <span class="oe_menu_text">
+                    Thư viện điểm cộng điểm trừ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1244&amp;action=1508" class="oe_menu_leaf" data-menu="1244" data-action-model="ir.actions.act_window" data-action-id="1508">
+                <span class="oe_menu_text">
+                    Import thư viện KRI
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1251&amp;action=1523" class="oe_menu_leaf" data-menu="1251" data-action-model="ir.actions.act_window" data-action-id="1523">
+                <span class="oe_menu_text">
+                    Chu kỳ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1247&amp;action=1503" class="oe_menu_leaf" data-menu="1247" data-action-model="ir.actions.act_window" data-action-id="1503">
+                <span class="oe_menu_text">
+                    Nhóm công việc
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1248&amp;action=1505" class="oe_menu_leaf" data-menu="1248" data-action-model="ir.actions.act_window" data-action-id="1505">
+                <span class="oe_menu_text">
+                    Mức độ phức tạp
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1252&amp;action=1522" class="oe_menu_leaf" data-menu="1252" data-action-model="ir.actions.act_window" data-action-id="1522">
+                <span class="oe_menu_text">
+                    Tính chất công việc
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1617">
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1587">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản trị khảo sát
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1589&amp;action=2064" class="oe_menu_leaf" data-menu="1589" data-action-model="ir.actions.act_window" data-action-id="2064">
+                <span class="oe_menu_text">
+                    Đợt khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1590&amp;action=2066" class="oe_menu_leaf" data-menu="1590" data-action-model="ir.actions.act_window" data-action-id="2066">
+                <span class="oe_menu_text">
+                    Đơn vị khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1591&amp;action=2068" class="oe_menu_leaf" data-menu="1591" data-action-model="ir.actions.act_window" data-action-id="2068">
+                <span class="oe_menu_text">
+                    Đề bài khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1592&amp;action=2065" class="oe_menu_leaf" data-menu="1592" data-action-model="ir.actions.act_window" data-action-id="2065">
+                <span class="oe_menu_text">
+                    Nhân sự đánh giá
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Khảo sát các cấp
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1630&amp;action=2122" class="oe_menu_leaf" data-menu="1630" data-action-model="ir.actions.act_window" data-action-id="2122">
+                <span class="oe_menu_text">
+                    Đơn vị tham gia khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tham gia khảo sát
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1594&amp;action=2069" class="oe_menu_leaf" data-menu="1594" data-action-model="ir.actions.act_window" data-action-id="2069">
+                <span class="oe_menu_text">
+                    Tham gia khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Thư viện câu hỏi
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1596&amp;action=2062" class="oe_menu_leaf" data-menu="1596" data-action-model="ir.actions.act_window" data-action-id="2062">
+                <span class="oe_menu_text">
+                    Nhóm câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1597&amp;action=2063" class="oe_menu_leaf" data-menu="1597" data-action-model="ir.actions.act_window" data-action-id="2063">
+                <span class="oe_menu_text">
+                    Câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1598&amp;action=2067" class="oe_menu_leaf" data-menu="1598" data-action-model="ir.actions.act_window" data-action-id="2067">
+                <span class="oe_menu_text">
+                    Import - Export nhóm câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1599&amp;action=2070" class="oe_menu_leaf" data-menu="1599" data-action-model="ir.actions.act_window" data-action-id="2070">
+                <span class="oe_menu_text">
+                    Import - Export câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Báo cáo thống kê
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1610&amp;action=2093" class="oe_menu_leaf" data-menu="1610" data-action-model="ir.actions.act_window" data-action-id="2093">
+                <span class="oe_menu_text">
+                    Báo cáo chi tiết kết quả theo từng đơn vị
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1601&amp;action=2076" class="oe_menu_leaf" data-menu="1601" data-action-model="ir.actions.act_window" data-action-id="2076">
+                <span class="oe_menu_text">
+                    Thống kê tổng hợp kết quả khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1649&amp;action=2182" class="oe_menu_leaf" data-menu="1649" data-action-model="ir.actions.act_window" data-action-id="2182">
+                <span class="oe_menu_text">
+                    Thống kê từng đơn vị đánh giá
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1603&amp;action=2078" class="oe_menu_leaf" data-menu="1603" data-action-model="ir.actions.act_window" data-action-id="2078">
+                <span class="oe_menu_text">
+                    BM4-01 Thống kê trạng thái theo từng đơn vị được khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1604&amp;action=2079" class="oe_menu_leaf" data-menu="1604" data-action-model="ir.actions.act_window" data-action-id="2079">
+                <span class="oe_menu_text">
+                    BM4-02 Thống kê trạng thái theo từng đơn vị trả lời khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1618&amp;action=2110" class="oe_menu_leaf" data-menu="1618" data-action-model="ir.actions.act_window" data-action-id="2110">
+                <span class="oe_menu_text">
+                    BM4-04 Thống kê tình trạng khảo sát của đơn vị
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1688&amp;action=2292" class="oe_menu_leaf" data-menu="1688" data-action-model="ir.actions.act_window" data-action-id="2292">
+                <span class="oe_menu_text">
+                    Báo cáo tổng hợp điểm trung bình
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Chức năng đặc biệt
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1607&amp;action=2071" class="oe_menu_leaf" data-menu="1607" data-action-model="ir.actions.act_window" data-action-id="2071">
+                <span class="oe_menu_text">
+                    Cấu hình domain khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1608&amp;action=2072" class="oe_menu_leaf" data-menu="1608" data-action-model="ir.actions.act_window" data-action-id="2072">
+                <span class="oe_menu_text">
+                    Cấu hình gửi Email/SMS
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1609&amp;action=2073" class="oe_menu_leaf" data-menu="1609" data-action-model="ir.actions.act_window" data-action-id="2073">
+                <span class="oe_menu_text">
+                    Hàng chờ Email/SMS
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="567">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản trị khảo sát
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=602&amp;action=796" class="oe_menu_leaf" data-menu="602" data-action-model="ir.actions.act_window" data-action-id="796">
+                <span class="oe_menu_text">
+                    Đợt khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=603&amp;action=791" class="oe_menu_leaf" data-menu="603" data-action-model="ir.actions.act_window" data-action-id="791">
+                <span class="oe_menu_text">
+                    Thư viện câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1208&amp;action=1477" class="oe_menu_leaf" data-menu="1208" data-action-model="ir.actions.act_window" data-action-id="1477">
+                <span class="oe_menu_text">
+                    Nhóm câu hỏi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=604&amp;action=734" class="oe_menu_leaf" data-menu="604" data-action-model="ir.actions.act_window" data-action-id="734">
+                <span class="oe_menu_text">
+                    Bài đã khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1209&amp;action=1476" class="oe_menu_leaf" data-menu="1209" data-action-model="ir.actions.act_window" data-action-id="1476">
+                <span class="oe_menu_text">
+                    Hướng dẫn khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Nhân sự khảo sát
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=606&amp;action=793" class="oe_menu_leaf" data-menu="606" data-action-model="ir.actions.act_window" data-action-id="793">
+                <span class="oe_menu_text">
+                    Tham gia khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Chức năng đặc biệt
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=629&amp;action=820" class="oe_menu_leaf" data-menu="629" data-action-model="ir.actions.act_window" data-action-id="820">
+                <span class="oe_menu_text">
+                    Hiệu chỉnh nhân sự
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1212&amp;action=1480" class="oe_menu_leaf" data-menu="1212" data-action-model="ir.actions.act_window" data-action-id="1480">
+                <span class="oe_menu_text">
+                    Cấu hình domain
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1217&amp;action=1487" class="oe_menu_leaf" data-menu="1217" data-action-model="ir.actions.act_window" data-action-id="1487">
+                <span class="oe_menu_text">
+                    Quản lý thông báo email
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1218&amp;action=1486" class="oe_menu_leaf" data-menu="1218" data-action-model="ir.actions.act_window" data-action-id="1486">
+                <span class="oe_menu_text">
+                    Cấu hình email - đợt KS
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Báo cáo thống kê
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=612&amp;action=797" class="oe_menu_leaf" data-menu="612" data-action-model="ir.actions.act_window" data-action-id="797">
+                <span class="oe_menu_text">
+                    Thống kê tổng hợp
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=613&amp;action=798" class="oe_menu_leaf" data-menu="613" data-action-model="ir.actions.act_window" data-action-id="798">
+                <span class="oe_menu_text">
+                    Thống kê theo điểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=614&amp;action=799" class="oe_menu_leaf" data-menu="614" data-action-model="ir.actions.act_window" data-action-id="799">
+                <span class="oe_menu_text">
+                    Thống kê theo nội dung
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=634&amp;action=811" class="oe_menu_leaf" data-menu="634" data-action-model="ir.actions.act_window" data-action-id="811">
+                <span class="oe_menu_text">
+                    Thống kê BM4-01
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=635&amp;action=812" class="oe_menu_leaf" data-menu="635" data-action-model="ir.actions.act_window" data-action-id="812">
+                <span class="oe_menu_text">
+                    Thống kê BM4-02
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=644&amp;action=822" class="oe_menu_leaf" data-menu="644" data-action-model="ir.actions.act_window" data-action-id="822">
+                <span class="oe_menu_text">
+                    Thống kê BM4-03
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1210&amp;action=1474" class="oe_menu_leaf" data-menu="1210" data-action-model="ir.actions.act_window" data-action-id="1474">
+                <span class="oe_menu_text">
+                    Thống kê điểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="115">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản trị nhân lực
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1174&amp;action=1441" class="oe_menu_leaf" data-menu="1174" data-action-model="ir.actions.act_window" data-action-id="1441">
+                <span class="oe_menu_text">
+                    Hồ sơ cá nhân
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=120&amp;action=114" class="oe_menu_leaf" data-menu="120" data-action-model="ir.actions.act_window" data-action-id="114">
+                <span class="oe_menu_text">
+                    Hồ sơ nhân sự
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1330&amp;action=" class="oe_menu_toggler" data-menu="1330">
+                <span class="oe_menu_text">
+                    Thông tin nhân sự
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=363&amp;action=520" class="oe_menu_leaf" data-menu="363" data-action-model="ir.actions.act_window" data-action-id="520">
+                <span class="oe_menu_text">
+                    Quan hệ gia đình
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=364&amp;action=521" class="oe_menu_leaf" data-menu="364" data-action-model="ir.actions.act_window" data-action-id="521">
+                <span class="oe_menu_text">
+                    Trình độ học vấn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=365&amp;action=522" class="oe_menu_leaf" data-menu="365" data-action-model="ir.actions.act_window" data-action-id="522">
+                <span class="oe_menu_text">
+                    Trình độ ngoại ngữ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=366&amp;action=523" class="oe_menu_leaf" data-menu="366" data-action-model="ir.actions.act_window" data-action-id="523">
+                <span class="oe_menu_text">
+                    Trình độ tin học
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=369&amp;action=526" class="oe_menu_leaf" data-menu="369" data-action-model="ir.actions.act_window" data-action-id="526">
+                <span class="oe_menu_text">
+                    Quá trình sinh hoạt Đảng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=370&amp;action=527" class="oe_menu_leaf" data-menu="370" data-action-model="ir.actions.act_window" data-action-id="527">
+                <span class="oe_menu_text">
+                    Quá trình sinh hoạt Đoàn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=367&amp;action=524" class="oe_menu_leaf" data-menu="367" data-action-model="ir.actions.act_window" data-action-id="524">
+                <span class="oe_menu_text">
+                    Kinh nghiệm công tác
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=371&amp;action=528" class="oe_menu_leaf" data-menu="371" data-action-model="ir.actions.act_window" data-action-id="528">
+                <span class="oe_menu_text">
+                    Quá trình khen thưởng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=372&amp;action=529" class="oe_menu_leaf" data-menu="372" data-action-model="ir.actions.act_window" data-action-id="529">
+                <span class="oe_menu_text">
+                    Quá trình kỷ luật
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=373&amp;action=530" class="oe_menu_leaf" data-menu="373" data-action-model="ir.actions.act_window" data-action-id="530">
+                <span class="oe_menu_text">
+                    Quá trình đi nước ngoài
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=141&amp;action=137" class="oe_menu_leaf" data-menu="141" data-action-model="ir.actions.act_window" data-action-id="137">
+                <span class="oe_menu_text">
+                    Hợp đồng lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản lý lao động
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=673&amp;action=904" class="oe_menu_leaf" data-menu="673" data-action-model="ir.actions.act_window" data-action-id="904">
+                <span class="oe_menu_text">
+                    Bổ nhiệm và giao nhiệm vụ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1331&amp;action=" class="oe_menu_toggler" data-menu="1331">
+                <span class="oe_menu_text">
+                    Thuyên chuyển
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=368&amp;action=525" class="oe_menu_leaf" data-menu="368" data-action-model="ir.actions.act_window" data-action-id="525">
+                <span class="oe_menu_text">
+                    Thuyên chuyển nội bộ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1214&amp;action=1482" class="oe_menu_leaf" data-menu="1214" data-action-model="ir.actions.act_window" data-action-id="1482">
+                <span class="oe_menu_text">
+                    Biệt phái
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1249&amp;action=1519" class="oe_menu_leaf" data-menu="1249" data-action-model="ir.actions.act_window" data-action-id="1519">
+                <span class="oe_menu_text">
+                    Kiêm nhiệm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản lý bảo hiểm
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=600&amp;action=785" class="oe_menu_leaf" data-menu="600" data-action-model="ir.actions.act_window" data-action-id="785">
+                <span class="oe_menu_text">
+                    Hồ sơ bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1040&amp;action=1312" class="oe_menu_leaf" data-menu="1040" data-action-model="ir.actions.act_window" data-action-id="1312">
+                <span class="oe_menu_text">
+                    Quá trình nâng lương bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản lý tuyển dụng
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=359&amp;action=243" class="oe_menu_leaf" data-menu="359" data-action-model="ir.actions.act_window" data-action-id="243">
+                <span class="oe_menu_text">
+                    Kế hoạch tuyển dụng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=361&amp;action=245" class="oe_menu_leaf" data-menu="361" data-action-model="ir.actions.act_window" data-action-id="245">
+                <span class="oe_menu_text">
+                    Kết quả thực hiện tuyển dụng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản lý đào tạo
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1631&amp;action=" class="oe_menu_toggler" data-menu="1631">
+                <span class="oe_menu_text">
+                    Đào tạo đơn vị
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=184&amp;action=247" class="oe_menu_leaf" data-menu="184" data-action-model="ir.actions.act_window" data-action-id="247">
+                <span class="oe_menu_text">
+                    Danh sách khóa đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=185&amp;action=248" class="oe_menu_leaf" data-menu="185" data-action-model="ir.actions.act_window" data-action-id="248">
+                <span class="oe_menu_text">
+                    Kế hoạch đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=186&amp;action=249" class="oe_menu_leaf" data-menu="186" data-action-model="ir.actions.act_window" data-action-id="249">
+                <span class="oe_menu_text">
+                    Kết quả thực hiện đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1632&amp;action=" class="oe_menu_toggler" data-menu="1632">
+                <span class="oe_menu_text">
+                    Đào tạo các cấp
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1633&amp;action=2164" class="oe_menu_leaf" data-menu="1633" data-action-model="ir.actions.act_window" data-action-id="2164">
+                <span class="oe_menu_text">
+                    Danh sách học viên được đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản lý chấm công
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=943&amp;action=" class="oe_menu_toggler" data-menu="943">
+                <span class="oe_menu_text">
+                    Lý do vắng mặt
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=944&amp;action=1295" class="oe_menu_leaf" data-menu="944" data-action-model="ir.actions.act_window" data-action-id="1295">
+                <span class="oe_menu_text">
+                    Khai báo lý do vắng mặt
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=142&amp;action=" class="oe_menu_toggler" data-menu="142">
+                <span class="oe_menu_text">
+                    Ngày nghỉ
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=143&amp;action=139" class="oe_menu_leaf" data-menu="143" data-action-model="ir.actions.act_window" data-action-id="139">
+                <span class="oe_menu_text">
+                    Đăng ký nghỉ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=144&amp;action=140" class="oe_menu_leaf" data-menu="144" data-action-model="ir.actions.act_window" data-action-id="140">
+                <span class="oe_menu_text">
+                    Đăng ký nghỉ chờ duyệt
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=145&amp;action=141" class="oe_menu_leaf" data-menu="145" data-action-model="ir.actions.act_window" data-action-id="141">
+                <span class="oe_menu_text">
+                    Đăng ký định mức ngày nghỉ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=147&amp;action=143" class="oe_menu_leaf" data-menu="147" data-action-model="ir.actions.act_window" data-action-id="143">
+                <span class="oe_menu_text">
+                    Tổng hợp nghỉ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Tổ chức
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=123&amp;action=119" class="oe_menu_leaf" data-menu="123" data-action-model="ir.actions.act_window" data-action-id="119">
+                <span class="oe_menu_text">
+                    Đơn vị / phòng ban
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=954&amp;action=1300" class="oe_menu_leaf" data-menu="954" data-action-model="ir.actions.act_window" data-action-id="1300">
+                <span class="oe_menu_text">
+                    Sáp nhập đơn vị
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=955&amp;action=1301" class="oe_menu_leaf" data-menu="955" data-action-model="ir.actions.act_window" data-action-id="1301">
+                <span class="oe_menu_text">
+                    Giải thể đơn vị
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Cấu hình
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=121&amp;action=116" class="oe_menu_leaf" data-menu="121" data-action-model="ir.actions.act_window" data-action-id="116">
+                <span class="oe_menu_text">
+                    Nhóm nhân viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=187&amp;action=" class="oe_menu_toggler" data-menu="187">
+                <span class="oe_menu_text">
+                    Hồ sơ nhân sự
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=696&amp;action=235" class="oe_menu_toggler" data-menu="696" data-action-model="ir.actions.act_window" data-action-id="235">
+                <span class="oe_menu_text">
+                    Địa chỉ
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=188&amp;action=235" class="oe_menu_leaf" data-menu="188" data-action-model="ir.actions.act_window" data-action-id="235">
+                <span class="oe_menu_text">
+                    Quốc gia
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=697&amp;action=927" class="oe_menu_leaf" data-menu="697" data-action-model="ir.actions.act_window" data-action-id="927">
+                <span class="oe_menu_text">
+                    Tỉnh/Thành phố
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=698&amp;action=928" class="oe_menu_leaf" data-menu="698" data-action-model="ir.actions.act_window" data-action-id="928">
+                <span class="oe_menu_text">
+                    Quận/Huyện/Thị xã
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=699&amp;action=929" class="oe_menu_leaf" data-menu="699" data-action-model="ir.actions.act_window" data-action-id="929">
+                <span class="oe_menu_text">
+                    Phường/Xã/Thị trấn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=189&amp;action=209" class="oe_menu_leaf" data-menu="189" data-action-model="ir.actions.act_window" data-action-id="209">
+                <span class="oe_menu_text">
+                    Dân tộc
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=190&amp;action=210" class="oe_menu_leaf" data-menu="190" data-action-model="ir.actions.act_window" data-action-id="210">
+                <span class="oe_menu_text">
+                    Tôn giáo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=191&amp;action=224" class="oe_menu_leaf" data-menu="191" data-action-model="ir.actions.act_window" data-action-id="224">
+                <span class="oe_menu_text">
+                    Danh hiệu phong tặng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=193&amp;action=212" class="oe_menu_leaf" data-menu="193" data-action-model="ir.actions.act_window" data-action-id="212">
+                <span class="oe_menu_text">
+                    Thành phần bản thân
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=194&amp;action=211" class="oe_menu_leaf" data-menu="194" data-action-model="ir.actions.act_window" data-action-id="211">
+                <span class="oe_menu_text">
+                    Thành phần gia đình
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=202&amp;action=215" class="oe_menu_leaf" data-menu="202" data-action-model="ir.actions.act_window" data-action-id="215">
+                <span class="oe_menu_text">
+                    Cơ sở đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=203&amp;action=222" class="oe_menu_leaf" data-menu="203" data-action-model="ir.actions.act_window" data-action-id="222">
+                <span class="oe_menu_text">
+                    Hình thức đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=204&amp;action=236" class="oe_menu_leaf" data-menu="204" data-action-model="ir.actions.act_window" data-action-id="236">
+                <span class="oe_menu_text">
+                    Chức danh đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=205&amp;action=218" class="oe_menu_leaf" data-menu="205" data-action-model="ir.actions.act_window" data-action-id="218">
+                <span class="oe_menu_text">
+                    Xếp loại tốt nghiệp
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=206&amp;action=217" class="oe_menu_leaf" data-menu="206" data-action-model="ir.actions.act_window" data-action-id="217">
+                <span class="oe_menu_text">
+                    Chuyên ngành đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=207&amp;action=238" class="oe_menu_leaf" data-menu="207" data-action-model="ir.actions.act_window" data-action-id="238">
+                <span class="oe_menu_text">
+                    Lĩnh vực đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=208&amp;action=232" class="oe_menu_leaf" data-menu="208" data-action-model="ir.actions.act_window" data-action-id="232">
+                <span class="oe_menu_text">
+                    Danh mục ngoại ngữ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=209&amp;action=233" class="oe_menu_leaf" data-menu="209" data-action-model="ir.actions.act_window" data-action-id="233">
+                <span class="oe_menu_text">
+                    Danh mục tin học
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=210&amp;action=239" class="oe_menu_leaf" data-menu="210" data-action-model="ir.actions.act_window" data-action-id="239">
+                <span class="oe_menu_text">
+                    Quân hàm quân đội
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=211&amp;action=240" class="oe_menu_leaf" data-menu="211" data-action-model="ir.actions.act_window" data-action-id="240">
+                <span class="oe_menu_text">
+                    Nhóm máu
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=212&amp;action=241" class="oe_menu_leaf" data-menu="212" data-action-model="ir.actions.act_window" data-action-id="241">
+                <span class="oe_menu_text">
+                    Mối quan hệ gia đình
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=195&amp;action=" class="oe_menu_toggler" data-menu="195">
+                <span class="oe_menu_text">
+                    Trình độ đào tạo
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=196&amp;action=229" class="oe_menu_leaf" data-menu="196" data-action-model="ir.actions.act_window" data-action-id="229">
+                <span class="oe_menu_text">
+                    Giáo dục phổ thông
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=197&amp;action=230" class="oe_menu_leaf" data-menu="197" data-action-model="ir.actions.act_window" data-action-id="230">
+                <span class="oe_menu_text">
+                    Chuyên môn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=198&amp;action=231" class="oe_menu_leaf" data-menu="198" data-action-model="ir.actions.act_window" data-action-id="231">
+                <span class="oe_menu_text">
+                    Quản lý nhà nước
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=199&amp;action=226" class="oe_menu_leaf" data-menu="199" data-action-model="ir.actions.act_window" data-action-id="226">
+                <span class="oe_menu_text">
+                    Lý luận chính trị
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=200&amp;action=227" class="oe_menu_leaf" data-menu="200" data-action-model="ir.actions.act_window" data-action-id="227">
+                <span class="oe_menu_text">
+                    Đào tạo ngoại ngữ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=201&amp;action=228" class="oe_menu_leaf" data-menu="201" data-action-model="ir.actions.act_window" data-action-id="228">
+                <span class="oe_menu_text">
+                    Đào tạo tin học
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=415&amp;action=556" class="oe_menu_leaf" data-menu="415" data-action-model="ir.actions.act_window" data-action-id="556">
+                <span class="oe_menu_text">
+                    Loại lý do nghỉ việc
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=213&amp;action=" class="oe_menu_toggler" data-menu="213">
+                <span class="oe_menu_text">
+                    Đào tạo
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=214&amp;action=246" class="oe_menu_leaf" data-menu="214" data-action-model="ir.actions.act_window" data-action-id="246">
+                <span class="oe_menu_text">
+                    Loại đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=675&amp;action=907" class="oe_menu_leaf" data-menu="675" data-action-model="ir.actions.act_window" data-action-id="907">
+                <span class="oe_menu_text">
+                    Cơ sở đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=674&amp;action=" class="oe_menu_toggler" data-menu="674">
+                <span class="oe_menu_text">
+                    Bảo hiểm
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=169&amp;action=196" class="oe_menu_leaf" data-menu="169" data-action-model="ir.actions.act_window" data-action-id="196">
+                <span class="oe_menu_text">
+                    Tỉ lệ bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=679&amp;action=912" class="oe_menu_leaf" data-menu="679" data-action-model="ir.actions.act_window" data-action-id="912">
+                <span class="oe_menu_text">
+                    Nhóm chức danh
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=680&amp;action=915" class="oe_menu_leaf" data-menu="680" data-action-model="ir.actions.act_window" data-action-id="915">
+                <span class="oe_menu_text">
+                    Chức danh
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=682&amp;action=914" class="oe_menu_leaf" data-menu="682" data-action-model="ir.actions.act_window" data-action-id="914">
+                <span class="oe_menu_text">
+                    Bậc lương BHXH
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=683&amp;action=916" class="oe_menu_leaf" data-menu="683" data-action-model="ir.actions.act_window" data-action-id="916">
+                <span class="oe_menu_text">
+                    Hệ số chức danh BHXH
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1505">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Cảnh báo hết hạn
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1507&amp;action=1982" class="oe_menu_leaf" data-menu="1507" data-action-model="ir.actions.act_window" data-action-id="1982">
+                <span class="oe_menu_text">
+                    Cảnh báo hết hạn hợp đồng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1508&amp;action=1979" class="oe_menu_leaf" data-menu="1508" data-action-model="ir.actions.act_window" data-action-id="1979">
+                <span class="oe_menu_text">
+                    Cảnh báo hết thời gian gián đoạn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1509&amp;action=1980" class="oe_menu_leaf" data-menu="1509" data-action-model="ir.actions.act_window" data-action-id="1980">
+                <span class="oe_menu_text">
+                    Cảnh báo đến thời gian nghỉ hưu
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1510&amp;action=1981" class="oe_menu_leaf" data-menu="1510" data-action-model="ir.actions.act_window" data-action-id="1981">
+                <span class="oe_menu_text">
+                    Cảnh báo tuổi đảng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="1">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Bảng điều khiển
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=431&amp;action=567" class="oe_menu_leaf" data-menu="431" data-action-model="ir.actions.act_window" data-action-id="567">
+                <span class="oe_menu_text">
+                    Bảng Điều Khiển
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1213&amp;action=1481" class="oe_menu_leaf" data-menu="1213" data-action-model="ir.actions.act_window" data-action-id="1481">
+                <span class="oe_menu_text">
+                    Thống kê nhân sự
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Khảo sát
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1305&amp;action=1586" class="oe_menu_leaf" data-menu="1305" data-action-model="ir.actions.act_window" data-action-id="1586">
+                <span class="oe_menu_text">
+                    Phân tích chiến dịch
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Quản trị nhân lực
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1261&amp;action=" class="oe_menu_toggler" data-menu="1261">
+                <span class="oe_menu_text">
+                    Quản lý nhân sự(New)
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1262&amp;action=1529" class="oe_menu_leaf" data-menu="1262" data-action-model="ir.actions.act_window" data-action-id="1529">
+                <span class="oe_menu_text">
+                    1. Báo cáo danh sách lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1264&amp;action=1530" class="oe_menu_leaf" data-menu="1264" data-action-model="ir.actions.act_window" data-action-id="1530">
+                <span class="oe_menu_text">
+                    2. DS lao động theo chuyên môn đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1263&amp;action=1532" class="oe_menu_leaf" data-menu="1263" data-action-model="ir.actions.act_window" data-action-id="1532">
+                <span class="oe_menu_text">
+                    3. DS lao động tăng chính thức (VNPT Soft)
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1265&amp;action=1531" class="oe_menu_leaf" data-menu="1265" data-action-model="ir.actions.act_window" data-action-id="1531">
+                <span class="oe_menu_text">
+                    14. DS lao động có sổ bảo hiểm xã hội
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=422&amp;action=" class="oe_menu_toggler" data-menu="422">
+                <span class="oe_menu_text">
+                    Quản lý nhân sự
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=346&amp;action=511" class="oe_menu_leaf" data-menu="346" data-action-model="ir.actions.act_window" data-action-id="511">
+                <span class="oe_menu_text">
+                    1. DS lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=316&amp;action=446" class="oe_menu_leaf" data-menu="316" data-action-model="ir.actions.act_window" data-action-id="446">
+                <span class="oe_menu_text">
+                    2. DS lao động theo chuyên môn đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=327&amp;action=470" class="oe_menu_leaf" data-menu="327" data-action-model="ir.actions.act_window" data-action-id="470">
+                <span class="oe_menu_text">
+                    3. DS lao động tăng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=326&amp;action=468" class="oe_menu_leaf" data-menu="326" data-action-model="ir.actions.act_window" data-action-id="468">
+                <span class="oe_menu_text">
+                    4. DS lao động giảm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=322&amp;action=460" class="oe_menu_leaf" data-menu="322" data-action-model="ir.actions.act_window" data-action-id="460">
+                <span class="oe_menu_text">
+                    5. DS đảng viên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=321&amp;action=458" class="oe_menu_leaf" data-menu="321" data-action-model="ir.actions.act_window" data-action-id="458">
+                <span class="oe_menu_text">
+                    6. DS cán bộ lãnh đạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=325&amp;action=466" class="oe_menu_leaf" data-menu="325" data-action-model="ir.actions.act_window" data-action-id="466">
+                <span class="oe_menu_text">
+                    9. DS lao động có trình độ ngoại ngữ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=333&amp;action=483" class="oe_menu_leaf" data-menu="333" data-action-model="ir.actions.act_window" data-action-id="483">
+                <span class="oe_menu_text">
+                    11. Kế hoạch lao động hết thời gian tập sự
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=315&amp;action=444" class="oe_menu_leaf" data-menu="315" data-action-model="ir.actions.act_window" data-action-id="444">
+                <span class="oe_menu_text">
+                    12. Kế hoạch nghỉ hưu
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=314&amp;action=442" class="oe_menu_leaf" data-menu="314" data-action-model="ir.actions.act_window" data-action-id="442">
+                <span class="oe_menu_text">
+                    13. DS cán bộ nghỉ hưu
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=324&amp;action=464" class="oe_menu_leaf" data-menu="324" data-action-model="ir.actions.act_window" data-action-id="464">
+                <span class="oe_menu_text">
+                    14. DS lao động có sổ BHXH
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=329&amp;action=474" class="oe_menu_leaf" data-menu="329" data-action-model="ir.actions.act_window" data-action-id="474">
+                <span class="oe_menu_text">
+                    15. DS lao động có sổ lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=339&amp;action=503" class="oe_menu_leaf" data-menu="339" data-action-model="ir.actions.act_window" data-action-id="503">
+                <span class="oe_menu_text">
+                    16. DS lao động có thời hạn HĐLĐ đang ký kết
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=331&amp;action=478" class="oe_menu_leaf" data-menu="331" data-action-model="ir.actions.act_window" data-action-id="478">
+                <span class="oe_menu_text">
+                    17. KH lao động hết hạn HĐLĐ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=318&amp;action=452" class="oe_menu_leaf" data-menu="318" data-action-model="ir.actions.act_window" data-action-id="452">
+                <span class="oe_menu_text">
+                    18. DS lao động đã qua quân đội
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=340&amp;action=505" class="oe_menu_leaf" data-menu="340" data-action-model="ir.actions.act_window" data-action-id="505">
+                <span class="oe_menu_text">
+                    19. DS lao động thôi việc, chuyển công tác, chết
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=323&amp;action=462" class="oe_menu_leaf" data-menu="323" data-action-model="ir.actions.act_window" data-action-id="462">
+                <span class="oe_menu_text">
+                    21. DS lao động là gia đình chính sách
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=335&amp;action=487" class="oe_menu_leaf" data-menu="335" data-action-model="ir.actions.act_window" data-action-id="487">
+                <span class="oe_menu_text">
+                    24. DS lao động được khen thưởng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=336&amp;action=489" class="oe_menu_leaf" data-menu="336" data-action-model="ir.actions.act_window" data-action-id="489">
+                <span class="oe_menu_text">
+                    25. DS lao động bị kỷ luật
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=332&amp;action=480" class="oe_menu_leaf" data-menu="332" data-action-model="ir.actions.act_window" data-action-id="480">
+                <span class="oe_menu_text">
+                    26. DS lao động được cử đi học tập và công tác nước ngoài
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=545&amp;action=702" class="oe_menu_leaf" data-menu="545" data-action-model="ir.actions.act_window" data-action-id="702">
+                <span class="oe_menu_text">
+                    27. TK lao động theo trình độ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=544&amp;action=700" class="oe_menu_leaf" data-menu="544" data-action-model="ir.actions.act_window" data-action-id="700">
+                <span class="oe_menu_text">
+                    28. TK lao động theo độ tuổi
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=546&amp;action=704" class="oe_menu_leaf" data-menu="546" data-action-model="ir.actions.act_window" data-action-id="704">
+                <span class="oe_menu_text">
+                    29. TK lao động theo chuyên ngành
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=542&amp;action=697" class="oe_menu_leaf" data-menu="542" data-action-model="ir.actions.act_window" data-action-id="697">
+                <span class="oe_menu_text">
+                    30. Cơ cấu tổ chức
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1043&amp;action=1319" class="oe_menu_leaf" data-menu="1043" data-action-model="ir.actions.act_window" data-action-id="1319">
+                <span class="oe_menu_text">
+                    31. Báo cáo thống kê nhân sự năm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1045&amp;action=1322" class="oe_menu_leaf" data-menu="1045" data-action-model="ir.actions.act_window" data-action-id="1322">
+                <span class="oe_menu_text">
+                    32. DS lao động thường xuyên
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1052&amp;action=1330" class="oe_menu_leaf" data-menu="1052" data-action-model="ir.actions.act_window" data-action-id="1330">
+                <span class="oe_menu_text">
+                    33. DS lao động được sử dụng sau khi sắp xếp
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1175&amp;action=1442" class="oe_menu_leaf" data-menu="1175" data-action-model="ir.actions.act_window" data-action-id="1442">
+                <span class="oe_menu_text">
+                    34. Tổng hợp tăng giảm nhân sự
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=424&amp;action=" class="oe_menu_toggler" data-menu="424">
+                <span class="oe_menu_text">
+                    Tuyển dụng
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=427&amp;action=559" class="oe_menu_leaf" data-menu="427" data-action-model="ir.actions.act_window" data-action-id="559">
+                <span class="oe_menu_text">
+                    1. KH tuyển dụng lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=428&amp;action=561" class="oe_menu_leaf" data-menu="428" data-action-model="ir.actions.act_window" data-action-id="561">
+                <span class="oe_menu_text">
+                    KH tuyển dụng lao động đột xuất
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=433&amp;action=570" class="oe_menu_leaf" data-menu="433" data-action-model="ir.actions.act_window" data-action-id="570">
+                <span class="oe_menu_text">
+                    BC lao động tuyển mới hàng quý
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=684&amp;action=" class="oe_menu_toggler" data-menu="684">
+                <span class="oe_menu_text">
+                    Đào tạo
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=429&amp;action=563" class="oe_menu_leaf" data-menu="429" data-action-model="ir.actions.act_window" data-action-id="563">
+                <span class="oe_menu_text">
+                    1. BC kế hoạch đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=685&amp;action=917" class="oe_menu_leaf" data-menu="685" data-action-model="ir.actions.act_window" data-action-id="917">
+                <span class="oe_menu_text">
+                    2. Báo cáo chi tiết theo từng lao động
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=686&amp;action=918" class="oe_menu_leaf" data-menu="686" data-action-model="ir.actions.act_window" data-action-id="918">
+                <span class="oe_menu_text">
+                    3. Báo cáo theo từng lớp học
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=543&amp;action=698" class="oe_menu_leaf" data-menu="543" data-action-model="ir.actions.act_window" data-action-id="698">
+                <span class="oe_menu_text">
+                    4. BC kết quả thực hiện đào tạo
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=976&amp;action=" class="oe_menu_toggler" data-menu="976">
+                <span class="oe_menu_text">
+                    Bảo hiểm
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=977&amp;action=1313" class="oe_menu_leaf" data-menu="977" data-action-model="ir.actions.act_window" data-action-id="1313">
+                <span class="oe_menu_text">
+                    1. Báo cáo trích nộp bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=978&amp;action=1315" class="oe_menu_leaf" data-menu="978" data-action-model="ir.actions.act_window" data-action-id="1315">
+                <span class="oe_menu_text">
+                    2. Báo cáo chi tiết trích nộp bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=975&amp;action=" class="oe_menu_toggler" data-menu="975">
+                <span class="oe_menu_text">
+                    Bảng lương
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1350&amp;action=1629" class="oe_menu_leaf" data-menu="1350" data-action-model="ir.actions.act_window" data-action-id="1629">
+                <span class="oe_menu_text">
+                    10.1 Báo cáo bảng lương tổng công ty
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1101&amp;action=" class="oe_menu_toggler" data-menu="1101">
+                <span class="oe_menu_text">
+                    Danh sách nhân sự thiếu thông tin
+                </span>
+            </a>
+        
+                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=1102&amp;action=1376" class="oe_menu_leaf" data-menu="1102" data-action-model="ir.actions.act_window" data-action-id="1376">
+                <span class="oe_menu_text">
+                    Trình độ học vấn
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1103&amp;action=1378" class="oe_menu_leaf" data-menu="1103" data-action-model="ir.actions.act_window" data-action-id="1378">
+                <span class="oe_menu_text">
+                    Kinh nghiệm công tác
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1104&amp;action=1380" class="oe_menu_leaf" data-menu="1104" data-action-model="ir.actions.act_window" data-action-id="1380">
+                <span class="oe_menu_text">
+                    Hợp đồng
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=1105&amp;action=1382" class="oe_menu_leaf" data-menu="1105" data-action-model="ir.actions.act_window" data-action-id="1382">
+                <span class="oe_menu_text">
+                    Bảo hiểm
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="388">
+                                
+                                    <div class="oe_secondary_menu_section">
+                                        Hướng dẫn
+                                    </div>
+                                    
+            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                <li>
+                    
+            
+            <a href="/web#menu_id=390&amp;action=538" class="oe_menu_leaf" data-menu="390" data-action-model="ir.actions.act_window" data-action-id="538">
+                <span class="oe_menu_text">
+                    Liên hệ
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=565&amp;action=724" class="oe_menu_leaf" data-menu="565" data-action-model="ir.actions.act_window" data-action-id="724">
+                <span class="oe_menu_text">
+                    Hướng dẫn HRM
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=566&amp;action=725" class="oe_menu_leaf" data-menu="566" data-action-model="ir.actions.act_window" data-action-id="725">
+                <span class="oe_menu_text">
+                    Hướng dẫn BSC, Khảo sát
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li><li>
+                    
+            
+            <a href="/web#menu_id=657&amp;action=835" class="oe_menu_leaf" data-menu="657" data-action-model="ir.actions.act_window" data-action-id="835">
+                <span class="oe_menu_text">
+                    Hướng dẫn KRI
+                </span>
+            </a>
+        
+                    
+            
+        
+                </li>
+            </ul>
+        
+                                
+                            </div>
+                        
+                            <div style="display: none" class="oe_secondary_menu" data-menu-parent="597">
+                                
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+                                </div>
+                            </td>
+                            <td class="oe_application"></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+            
+                
+            
+        
+        </body></html>
